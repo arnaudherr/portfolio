@@ -1,0 +1,15 @@
+---
+layout: default
+page_title: Experience
+---
+{% assign sortedAllExp = (site.paperstripexperience | sort: 'date')  %}
+           {% for item in sortedAllExp %}
+           {%if forloop.first%}
+           <ul>
+              {%endif%}
+                <li><a href="{{item.url}}"><img src="{{item.img}}"><p>{{item.name}}</p></a></li>
+
+              {%if forloop.last%}
+           </ul>
+           {%endif%}
+           {% endfor %}

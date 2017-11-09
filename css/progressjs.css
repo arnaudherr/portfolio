@@ -1,0 +1,315 @@
+.progressjs-inner {
+    width: 0;
+}
+.progressjs-progress {
+    z-index: 9999999;
+}
+
+/* blue theme, like iOS 7 progress bar */
+.progressjs-theme-blue .progressjs-inner {
+    height: 15px;
+    margin:52.5% auto;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    background-color: mediumvioletred;
+    background-image:url(img/lost.png);
+}
+.progressjs-theme-blue.progressjs-end {
+
+}
+.progressjs-theme-blue .progressjs-percent {
+    display: none;
+}
+
+/* blue theme with overlay layer, no percent bar */
+.progressjs-theme-blueOverlay {
+    background-color: white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.progressjs-theme-blueOverlay .progressjs-inner {
+    height: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #3498db;
+}
+.progressjs-theme-blueOverlay.progressjs-end {
+    opacity: 0 !important;
+}
+.progressjs-theme-blueOverlay .progressjs-percent {
+    display: none;
+}
+
+/* blue theme with overlay layer, no percent bar */
+.progressjs-theme-blueOverlay {
+    background-color: white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.progressjs-theme-blueOverlay .progressjs-inner {
+    height: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #3498db;
+}
+.progressjs-theme-blueOverlay.progressjs-end {
+    opacity: 0 !important;
+}
+.progressjs-theme-blueOverlay .progressjs-percent {
+    display: none;
+}
+
+/* Blue theme with border radius and overlay layer */
+.progressjs-theme-blueOverlayRadius {
+    background-color: white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadius .progressjs-inner {
+    height: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadius.progressjs-end {
+    opacity: 0 !important;
+}
+.progressjs-theme-blueOverlayRadius .progressjs-percent {
+    display: none;
+}
+
+/* Blue theme with border radius and overlay layer */
+.progressjs-theme-blueOverlayRadiusHalfOpacity {
+    background-color: white;
+    opacity: 0.5;
+   -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadiusHalfOpacity .progressjs-inner {
+    height: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadiusHalfOpacity.progressjs-end {
+    opacity: 0 !important;
+}
+.progressjs-theme-blueOverlayRadiusHalfOpacity .progressjs-percent {
+    display: none;
+}
+
+/* Blue theme with border radius, overlay layer and percent bar */
+.progressjs-theme-blueOverlayRadiusWithPercentBar {
+    background-color: white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadiusWithPercentBar .progressjs-inner {
+    height: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.progressjs-theme-blueOverlayRadiusWithPercentBar.progressjs-end {
+    opacity: 0 !important;
+}
+.progressjs-theme-blueOverlayRadiusWithPercentBar .progressjs-percent {
+    width: 70px;
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 30px;
+    opacity: .5;
+}
+
+.progressjs-theme-blackRadiusInputs {
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progressjs-theme-blackRadiusInputs .progressjs-inner {
+    height: 2px;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    background-color: #34495e;
+}
+.progressjs-theme-blackRadiusInputs.progressjs-end {
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+.progressjs-theme-blackRadiusInputs .progressjs-percent {
+    display: none;
+}
+
+
+.centeredElement
+{
+    margin: 0 auto;
+    max-width:70%;
+    text-align:center;
+    -webkit-box-shadow: 0px 0px 61px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 61px 0px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 61px 0px rgba(0,0,0,0.75);
+}
+
+
+canvas
+{
+    background-color: #172B31;
+    background-image: url('../img/bck.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width:100%;
+    z-index: 2;
+    border-top:  solid 3em black;
+    border-bottom:  solid 3em black;
+
+
+}
+
+
+
+@media all and (max-width: 600px){
+
+
+    canvas
+    {
+        border-top:  solid 1em black;
+        border-bottom:  solid 1em black;
+        transform: rotate(90deg);
+        }
+
+
+
+    .centeredElement
+    {
+        max-width:100%;
+
+    }
+
+}
+.tuto
+{
+    width: 98%;
+    max-width:1200px;
+    margin: 1em auto;
+    background:white;
+    text-align: center;
+    padding: 1em 0;
+    font-family: arial, Helevtica,sans-serif;
+    font-size: 1rem;
+   color: mediumvioletred;
+    border-left: solid 0.8em mediumvioletred;
+
+
+}
+
+
+.nodisplay
+{
+    display:none;
+}
+
+#scoreBar
+{
+
+    position:absolute;
+    margin-top: -5%;
+    left:10%;
+    z-index: 5;
+
+
+
+}
+#scoreBar > *
+{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+#scoreBar p
+{
+    color: black;
+    font-family: Helevtica,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.commencer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 24vh;
+    margin: 0 auto;
+    width: 300px;
+    display: inline-block;
+    background: #00fdc7;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.recommencer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 24vh;
+  margin: 0 auto;
+  width: 300px;
+  display: inline-block;
+  background: #00fdc7;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.commencer:hover{
+    cursor: pointer;
+}
+
+.recommencer:hover{
+    cursor: pointer;
+}
